@@ -1,3 +1,4 @@
+import { DVerbPage } from './../d-verb/d-verb';
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 
@@ -10,5 +11,9 @@ export class HomePage {
   constructor(public navCtrl: NavController) {
 
   }
+  verb(){
+    this.navCtrl.push(DVerbPage)
+  };
+
 
 }
