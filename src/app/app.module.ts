@@ -11,7 +11,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
-import { ExPage } from '../pages/ex/ex';
+//import { ExPage } from '../pages/ex/ex';
 //import { DefineVerbPage } from '../pages/define-verb/define-verb';
 
 @NgModule({
