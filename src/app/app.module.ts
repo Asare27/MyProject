@@ -1,3 +1,5 @@
+import { ExPage } from './../pages/ex/ex';
+import { VPage } from './../pages/v/v';
 import { DefineVerbPage } from './../pages/define-verb/define-verb';
 import { TutorialPage } from './../pages/tutorial/tutorial';
 import { DVerbPage } from './../pages/d-verb/d-verb';
@@ -9,6 +11,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
+//import { ExPage } from '../pages/ex/ex';
 //import { DefineVerbPage } from '../pages/define-verb/define-verb';
 
 @NgModule({
@@ -17,7 +20,9 @@ import { HomePage } from '../pages/home/home';
     HomePage,
     DVerbPage,
     TutorialPage,
-    DefineVerbPage
+    DefineVerbPage,
+    VPage,
+    ExPage
   ],
   imports: [
     BrowserModule,
@@ -29,7 +34,9 @@ import { HomePage } from '../pages/home/home';
     HomePage,
     DVerbPage,
     TutorialPage,
-    DefineVerbPage
+    DefineVerbPage,
+    VPage,
+    ExPage
   ],
   providers: [
     StatusBar,
