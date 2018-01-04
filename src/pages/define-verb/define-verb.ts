@@ -1,9 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { DefineVerbPage } from '../define-verb/define-verb';
 
 /**
- * Generated class for the TutorialPage page.
+ * Generated class for the DefineVerbPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -11,22 +10,16 @@ import { DefineVerbPage } from '../define-verb/define-verb';
 
 @IonicPage()
 @Component({
-  selector: 'page-tutorial',
-  templateUrl: 'tutorial.html',
+  selector: 'page-define-verb',
+  templateUrl: 'define-verb.html',
 })
-export class TutorialPage {
+export class DefineVerbPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad TutorialPage');
+    console.log('ionViewDidLoad DefineVerbPage');
   }
-
-  DfVerb(){
-    this.navCtrl.push(DefineVerbPage);
-  }
-
-  
 
 }

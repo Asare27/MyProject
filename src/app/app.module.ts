@@ -1,3 +1,4 @@
+import { DefineVerbPage } from './../pages/define-verb/define-verb';
 import { TutorialPage } from './../pages/tutorial/tutorial';
 import { DVerbPage } from './../pages/d-verb/d-verb';
 import { BrowserModule } from '@angular/platform-browser';
@@ -8,13 +9,15 @@ import { StatusBar } from '@ionic-native/status-bar';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
+//import { DefineVerbPage } from '../pages/define-verb/define-verb';
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
     DVerbPage,
-    TutorialPage
+    TutorialPage,
+    DefineVerbPage
   ],
   imports: [
     BrowserModule,
@@ -25,7 +28,8 @@ import { HomePage } from '../pages/home/home';
     MyApp,
     HomePage,
     DVerbPage,
-    TutorialPage
+    TutorialPage,
+    DefineVerbPage
   ],
   providers: [
     StatusBar,
