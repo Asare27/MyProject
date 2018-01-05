@@ -1,5 +1,6 @@
 import { TutorialPage } from './../pages/tutorial/tutorial';
 import { DVerbPage } from './../pages/d-verb/d-verb';
+import { IntroPage } from './../pages/intro/intro';
 import { HelpPage } from './../pages/help/help';
 import { BrowserModule } from '@angular/platform-browser';
 import { ErrorHandler, NgModule } from '@angular/core';
@@ -16,7 +17,8 @@ import { HomePage } from '../pages/home/home';
     HomePage,
     DVerbPage,
     TutorialPage,
-    HelpPage
+    HelpPage,
+    IntroPage
   ],
   imports: [
     BrowserModule,
@@ -28,7 +30,8 @@ import { HomePage } from '../pages/home/home';
     HomePage,
     DVerbPage,
     TutorialPage,
-    HelpPage
+    HelpPage,
+    IntroPage
   ],
   providers: [
     StatusBar,
