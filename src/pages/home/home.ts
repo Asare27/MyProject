@@ -1,6 +1,7 @@
 import { HelpPage } from './../help/help';
 import { DVerbPage } from './../d-verb/d-verb';
 import { IntroPage } from './../intro/intro';
+import { VpagePage } from './../vpage/vpage';
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 
@@ -24,6 +25,12 @@ export class HomePage {
 };
 intro(){
   this.navCtrl.push(IntroPage)
+
+  
+};
+
+tovideo(){
+  this.navCtrl.push(VpagePage)
 
   
 }

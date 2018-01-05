@@ -2,6 +2,7 @@ import { TutorialPage } from './../pages/tutorial/tutorial';
 import { DVerbPage } from './../pages/d-verb/d-verb';
 import { IntroPage } from './../pages/intro/intro';
 import { HelpPage } from './../pages/help/help';
+import { VpagePage } from './../pages/vpage/vpage';
 import { BrowserModule } from '@angular/platform-browser';
 import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
@@ -18,6 +19,7 @@ import { HomePage } from '../pages/home/home';
     DVerbPage,
     TutorialPage,
     HelpPage,
+    VpagePage,
     IntroPage
   ],
   imports: [
@@ -31,6 +33,7 @@ import { HomePage } from '../pages/home/home';
     DVerbPage,
     TutorialPage,
     HelpPage,
+    VpagePage,
     IntroPage
   ],
   providers: [

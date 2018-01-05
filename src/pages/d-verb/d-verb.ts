@@ -1,4 +1,5 @@
 import { TutorialPage } from './../tutorial/tutorial';
+import { VpagePage } from './../vpage/vpage';
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
@@ -25,4 +26,8 @@ export class DVerbPage {
     ToTutorial(){
       this.navCtrl.push(TutorialPage);
     }
+
+    Tovideo(){
+      this.navCtrl.push(VpagePage)
+}
 }
